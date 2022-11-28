@@ -1,0 +1,19 @@
+.cover {
+  margin: 92px auto;
+  padding: 0;
+  width: calc(100% - 2 * 48px);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .cover {
+    margin: 60px auto 91px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    margin: 40px auto 64px;
+  }
+}

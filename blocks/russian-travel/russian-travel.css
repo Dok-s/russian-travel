@@ -1,0 +1,28 @@
+.russian-travel {
+  position: relative;
+  width: 984px;
+  height: 1005px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1024px) {
+  .russian-travel {
+    width: 928px;
+    height: 962px;
+  }
+}
+
+@media (max-width: 768px) {
+  .russian-travel {
+    width: 768px;
+    height: 862px;
+  }
+}
+
+@media (max-width: 320px) {
+  .russian-travel {
+    width: 320px;
+    height: 406px;
+  }
+}

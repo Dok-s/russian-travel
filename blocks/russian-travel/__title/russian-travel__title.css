@@ -1,0 +1,34 @@
+.russian-travel__title {
+  max-width: 720px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 96px;
+  line-height: 100px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 45px;
+}
+
+@media (max-width: 1024px) {
+  .russian-travel__title {
+    margin-top: 38px;
+  }
+}
+
+@media (max-width: 768px) {
+  .russian-travel__title {
+    margin-top: 37px;
+  }
+}
+
+@media (max-width: 320px) {
+  .russian-travel__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 40px;
+  }
+}

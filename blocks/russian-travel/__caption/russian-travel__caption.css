@@ -1,0 +1,25 @@
+.russian-travel__caption {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1.5;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .russian-travel__caption {
+    left: 26px;
+  }
+}
+
+@media (max-width: 320px) {
+  .russian-travel__caption {
+    bottom: 0;
+    left: 16px;
+  }
+}
