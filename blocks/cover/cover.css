@@ -6,14 +6,22 @@
   flex-direction: column;
 }
 
+@media (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
+}
+
 @media (max-width: 768px) {
   .cover {
     margin: 60px auto 91px;
+    width: 100%;
   }
 }
 
 @media (max-width: 320px) {
   .cover {
     margin: 40px auto 64px;
+    width: 100%;
   }
 }

@@ -1,6 +1,6 @@
 .cover__background {
   width: 1184px;
-  height: 740px;
+  min-height: 740px;
   margin-left: auto;
   margin-right: auto;
   background-image: url(../../../images/cover-trains.jpg);
@@ -37,20 +37,20 @@
 @media (max-width: 1024px) {
   .cover__background {
     width: 1024px;
-    height: 640px;
+    min-height: 640px;
   }
 }
 
 @media (max-width: 768px) {
   .cover__background {
     width: 768px;
-    height: 480px;
+    min-height: 480px;
   }
 }
 
 @media (max-width: 320px) {
   .cover__background {
     width: 320px;
-    height: 200px;
+    min-height: 200px;
   }
 }
