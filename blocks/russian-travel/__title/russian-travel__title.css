@@ -1,6 +1,6 @@
 .russian-travel__title {
   max-width: 720px;
-  margin-bottom: 0;
+  margin-bottom: 32px;
   margin-left: auto;
   margin-right: auto;
   color: #ffffff;
@@ -12,23 +12,12 @@
   margin-top: 45px;
 }
 
-@media (max-width: 1024px) {
-  .russian-travel__title {
-    margin-top: 38px;
-  }
-}
-
 @media (max-width: 768px) {
   .russian-travel__title {
-    margin-top: 37px;
+    max-width: calc(100% - 2 * 16px);
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0 auto 16px;
   }
 }
 
-@media (max-width: 320px) {
-  .russian-travel__title {
-    max-width: 288px;
-    font-size: 40px;
-    line-height: 44px;
-    margin-top: 40px;
-  }
-}
