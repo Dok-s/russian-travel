@@ -1,7 +1,6 @@
 .intro__item {
-  list-style-type: none;
-  color: #ffffff;
-  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 12px;
   line-height: 18px;
 }

@@ -1,11 +1,4 @@
 .place__column {
   display: flex;
   flex-direction: column;
-  grid-area: paragraph;
-}
-
-@media (max-width: 320px) {
-  .place__column {
-    margin-top: 33px;
-  }
 }
