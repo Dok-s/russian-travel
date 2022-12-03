@@ -1,5 +1,6 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../vendor/normalize.css);
+@import url(../blocks/main/main.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -10,6 +11,7 @@
 @import url(../blocks/russian-travel/__title/russian-travel__title.css);
 @import url(../blocks/russian-travel/__subtitle/russian-travel__subtitle.css);
 @import url(../blocks/russian-travel/__image/russian-travel__image.css);
+@import url(../blocks/russian-travel/__images/russian-travel__images.css);
 @import url(../blocks/russian-travel/__caption/russian-travel__caption.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);

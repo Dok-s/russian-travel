@@ -1,20 +1,23 @@
 .russian-travel__subtitle {
   max-width: 640px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #ffffff;
-  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 30px;
   line-height: 36px;
-  margin-top: 32px;
-  margin-bottom: 0;
+  margin: 0 auto 64px;
   text-align: center;
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 1100px) {
+  .russian-travel__subtitle {
+    margin: 0 auto 56px;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .russian-travel__subtitle {
     font-size: 16px;
     line-height: 20px;
-    margin-top: 16px;
+    margin: 0 auto 40px;
   }
 }

@@ -1,12 +1,17 @@
-.header__lang {
+.header__lang  {
   display: flex;
+  max-width: 77px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 6px;
   list-style-type: none;
-  gap: 18px;
-  margin-left: auto;
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .header__lang {
-    margin-top: 12px;
+    max-width: 62px;
   }
 }

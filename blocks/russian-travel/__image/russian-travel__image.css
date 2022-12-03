@@ -1,15 +1,3 @@
 .russian-travel__image {
-  max-width: 100%;
-}
-
-@media (max-width: 1024px) {
-  .russian-travel__image {
-    margin-top: 56px;
-  }
-}
-
-@media (max-width: 320px) {
-  .russian-travel__image {
-    margin-top: 40px;
-  }
+    max-width: 100%;
 }

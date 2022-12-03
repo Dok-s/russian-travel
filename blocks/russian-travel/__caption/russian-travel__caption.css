@@ -1,28 +1,23 @@
 .russian-travel__caption {
-  width: 984px;
   margin: 0;
-  color: #ffffff;
-  font-family: "Inter", "Arial", sans-serif;
-  font-size: 12px;
-  line-height: 12px;
-  letter-spacing: 1.5;
+  padding-top: 5px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
-  margin-top: 8px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .russian-travel__caption {
-    width: 720px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 4px;
+    padding-left: 24px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .russian-travel__caption {
-    width: 288px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 6px;
+    padding-left: 16px;
   }
 }
-
