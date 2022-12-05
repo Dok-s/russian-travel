@@ -1,17 +1,11 @@
 .header__lang  {
   display: flex;
-  max-width: 77px;
   width: 100%;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 18px;
   align-items: flex-end;
   margin: 0;
   padding: 0;
   padding-bottom: 6px;
   list-style-type: none;
-}
-
-@media screen and (max-width: 500px) {
-  .header__lang {
-    max-width: 62px;
-  }
 }
